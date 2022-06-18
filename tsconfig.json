@@ -12,10 +12,11 @@
     "declaration": false,
     "downlevelIteration": true,
     "paths": {
-      "ng2-tooltip-directive": [
-        "dist/ng2-tooltip-directive/ng2-tooltip-directive",
-        "dist/ng2-tooltip-directive"
-      ]
+      // "ng2-tooltip-directive": [
+      //   "dist/ng2-tooltip-directive/ng2-tooltip-directive",
+      //   "dist/ng2-tooltip-directive"
+      // ]
+      "ng2-tooltip-directive": ["projects/ng2-tooltip-directive/src/public-api"],
     },
     "experimentalDecorators": true,
     "moduleResolution": "node",
